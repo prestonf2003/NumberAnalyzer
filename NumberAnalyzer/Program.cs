@@ -13,7 +13,7 @@
             Console.WriteLine("Please input an integer between 0 and 100");
             
                 int num = int.Parse(Console.ReadLine());
-            if (num > 0 && num < 100)
+            if (num > 0 && num <= 100)
             {
                 Console.WriteLine("Great Job! Your Number is in the parameters");
             }
